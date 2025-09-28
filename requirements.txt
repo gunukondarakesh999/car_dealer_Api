@@ -1,0 +1,12 @@
+Django>=4.2
+djangorestframework
+django-filter
+psycopg2-binary
+django-redis
+djangorestframework-simplejwt
+python-dotenv
+gunicorn
+pytest
+pytest-django
+factory_boy
+django-storages[boto3]   # if you use S3 for static/media in prod
